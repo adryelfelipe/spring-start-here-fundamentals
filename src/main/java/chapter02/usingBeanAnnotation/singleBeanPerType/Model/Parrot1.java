@@ -1,6 +1,6 @@
 package chapter02.usingBeanAnnotation.singleBeanPerType.Model;
 
-public class Parrot {
+public class Parrot1 {
     // Attribute
     private String name;
 

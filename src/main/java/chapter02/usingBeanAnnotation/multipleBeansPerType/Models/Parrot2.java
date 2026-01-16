@@ -1,6 +1,6 @@
 package chapter02.usingBeanAnnotation.multipleBeansPerType.Models;
 
-public class Parrot {
+public class Parrot2 {
     // Attribute
     private String name;
 

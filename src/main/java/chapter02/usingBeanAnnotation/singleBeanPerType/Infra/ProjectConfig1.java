@@ -1,14 +1,14 @@
 package chapter02.usingBeanAnnotation.singleBeanPerType.Infra;
 
-import chapter02.usingBeanAnnotation.singleBeanPerType.Model.Parrot;
+import chapter02.usingBeanAnnotation.singleBeanPerType.Model.Parrot1;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ProjectConfig {
+public class ProjectConfig1 {
     @Bean()
-    Parrot parrot() {
-        Parrot p = new Parrot();
+    Parrot1 parrot() {
+        Parrot1 p = new Parrot1();
         p.setName("JetosValda");
         return p;
     }

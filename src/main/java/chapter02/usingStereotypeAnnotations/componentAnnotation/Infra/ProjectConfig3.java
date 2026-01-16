@@ -5,5 +5,5 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "chapter02.usingStereotypeAnnotations.componentAnnotation.Models")
-public class ProjectConfig {
+public class ProjectConfig3 {
 }

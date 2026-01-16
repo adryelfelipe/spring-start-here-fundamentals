@@ -3,7 +3,7 @@ package chapter02.usingStereotypeAnnotations.componentAnnotation.Models;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Parrot {
+public class Parrot3 {
     // Attributes
     private String name;
 
